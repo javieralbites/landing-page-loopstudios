@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <section class="hero">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">loopstudios</a>
+                <div onclick="toggleMenu()" class="toggleMenu"></div>
+                <ul class="navigation">
+                    <li>About</li>
+                    <li>Careers</li>
+                    <li>Events</li>
+                    <li>Products</li>
+                    <li>Support</li>
+                </ul>
+            </nav>
+            <h2 class="textHero">INMERSIVE EXPERIENCES THAT DELIVER</h2>
+            <span class="fakeFondo"></span>
+        </div>
+
+    </section>
+
+    <section class="container section2" >
+            
+            <img src="img/image-interactive.jpg" alt="">
+            <span class="cardInteractive">
+                <h2>THE LEADER IN INTERACTIVE VR</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aspernatur quidem nisi eius dolorum ipsam impedit, praesentium est reprehenderit. Iste quidem, reiciendis deserunt ipsa quod explicabo repellat illum nostrum vel!</P>
+            </span>
+            
+    </section>
+    
+    <section class="container section3">
+        <div class="header">
+            <h2 class="">OUR CREATIONS</h2>
+            <a href="#">SEE ALL</a>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <img src="img/image-deep-earth.jpg" alt="image-deep-earth">
+                <p>DEEP <br> EARTH</p>
+            </div>
+            <div class="card">
+                <img src="img/image-night-arcade.jpg" alt="image-night-arcade">
+                <p>NIGHT <br> ARCADE</p>
+            </div>
+            <div class="card">
+                <img src="img/image-soccer-team.jpg" alt="image-soccer-team">
+                <p>SOCCER <br> TEAM VR</p>
+            </div>
+            <div class="card">
+                <img src="img/image-grid.jpg" alt="image-grid">
+                <p>THE <br> GRID</p>
+            </div>
+            <div class="card">
+                <img src="img/image-from-above.jpg" alt="image-grid">
+                <p>FROM UP <br> ABOVE VR</p>
+            </div>
+            <div class="card">
+                <img src="img/image-pocket-borealis.jpg" alt="image-grid">
+                <p>POCKET <br> BOREALS</p>
+            </div>
+            <div class="card">
+                <img src="img/image-curiosity.jpg" alt="image-grid">
+                <p>THE <br> CURIOSITY</p>
+            </div>
+            <div class="card">
+                <img src="img/image-fisheye.jpg" alt="image-grid">
+                <p>MAKE IT <br> FISHEYE</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="">
+
+                <a href="#">loopstudios</a>
+            </div>
+            <ul class="icons">
+                <li><a href="#"><img src="/img/icons/icon-facebook.svg" alt="icon-facebook"></a></li>
+                <li><a href="#"><img src="/img/icons/icon-twitter.svg" alt="icon-twitter"></a></li>
+                <li><a href="#"><img src="/img/icons/icon-pinterest.svg" alt="icon-pinterest"></a></li>
+                <li><a href="#"><img src="/img/icons/icon-instagram.svg" alt="icon-instagram"></a></li>
+            </ul>
+            <ul class="links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+            <p>&copy; alexan.dev. All rights reserved</p>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const logo = document.querySelector(".logo");
+            logo.classList.toggle("active");
+            const toggleMenu = document.querySelector(".toggleMenu");
+            toggleMenu.classList.toggle("active");
+            const navigation = document.querySelector(".navigation");
+            navigation.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
